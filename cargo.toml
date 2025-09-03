@@ -1,0 +1,15 @@
+[workspace]
+members = [
+    "The rust programming language/getting started/hello_cargo",
+    "The rust programming language/common programming concepts/*",
+    "The rust programming language/programming a guessing game/*",
+    "The rust programming language/understanding ownership/*"
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+authors = ["tianjingren@tjr181.com"]
+description = "Learning Rust"
+license = "MIT"
+resolver = "3"
