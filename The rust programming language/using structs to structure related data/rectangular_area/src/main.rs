@@ -1,18 +1,28 @@
 #[derive(Debug)]
-struct Rectangular {
+struct Rectangle {
     length: u32,
-    width: u32
+    width: u32,
+}
+
+impl Rectangle {
+    fn calculate_area(&self) -> u32 {
+        self.width * self.length
+    }
+
+    fn square(size: u32) -> Rectangle {
+        Rectangle {
+            length: size,
+            width:size
+        }
+    }
 }
 
 fn main() {
-    let test_rectangular = Rectangular{
+    let test_rectangle = Rectangle {
         width: 11,
-        length: 12
+        length: 12,
     };
-    let test_area = calculate_area(&test_rectangular);
-    println!("{:#?}\nresult: {}", test_rectangular, test_area);
-}
-
-fn calculate_area(rectangular: &Rectangular) -> u32 {
-    rectangular.width * rectangular.length
+    let test_area = test_rectangle.calculate_area();
+    println!("{:#?}\nresult: {}", test_rectangle, test_area);
+    println!("\n\n{:?}", Rectangle::square(5));
 }
