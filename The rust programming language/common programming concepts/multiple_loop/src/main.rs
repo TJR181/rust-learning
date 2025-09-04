@@ -5,7 +5,6 @@ fn main() {
             i = i + 1;
             println!("The value is {i}");
             if i == 10 {
-                i=0;
                 break 'outside_loop;
             }
         }

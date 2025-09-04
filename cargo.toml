@@ -1,15 +1,12 @@
 [workspace]
 members = [
+    # 精确匹配 - 避免匹配构建产物
     "The rust programming language/getting started/hello_cargo",
+
+    # 多级通配符 - 匹配特定章节的所有项目
     "The rust programming language/common programming concepts/*",
     "The rust programming language/programming a guessing game/*",
-    "The rust programming language/understanding ownership/*"
+    "The rust programming language/understanding ownership/*",
+    "The rust programming language/using structs to structure related data/*"
 ]
-
-[workspace.package]
-version = "0.1.0"
-edition = "2024"
-authors = ["tianjingren@tjr181.com"]
-description = "Learning Rust"
-license = "MIT"
 resolver = "3"

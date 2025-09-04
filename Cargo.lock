@@ -124,6 +124,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "rectangular_area"
+version = "0.1.0"
+
+[[package]]
 name = "reference"
 version = "0.1.0"
 
@@ -137,6 +141,10 @@ version = "0.1.0"
 
 [[package]]
 name = "string_move"
+version = "0.1.0"
+
+[[package]]
+name = "structs"
 version = "0.1.0"
 
 [[package]]
