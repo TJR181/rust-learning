@@ -86,6 +86,10 @@ name = "mutable_references"
 version = "0.1.0"
 
 [[package]]
+name = "panic"
+version = "0.1.0"
+
+[[package]]
 name = "ppv-lite86"
 version = "0.2.21"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -148,11 +152,19 @@ dependencies = [
 ]
 
 [[package]]
+name = "read_flag"
+version = "0.1.0"
+
+[[package]]
 name = "rectangular_area"
 version = "0.1.0"
 
 [[package]]
 name = "reference"
+version = "0.1.0"
+
+[[package]]
+name = "result_enum_revert"
 version = "0.1.0"
 
 [[package]]
