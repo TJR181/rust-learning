@@ -8,5 +8,5 @@ members = [
     "The rust programming language/programming a guessing game/*",
     "The rust programming language/understanding ownership/*",
     "The rust programming language/using structs to structure related data/*"
-, "The rust programming language/enums and pattern matchine/define_enum", "The rust programming language/enums and pattern matchine/match_test", "The rust programming language/enums and pattern matchine/if_let"]
+, "The rust programming language/enums and pattern matchine/define_enum", "The rust programming language/enums and pattern matchine/match_test", "The rust programming language/enums and pattern matchine/if_let", "The rust programming language/managing growing projects with packages crates and modules/mod_demo", "The rust programming language/managing growing projects with packages crates and modules/use_demo"]
 resolver = "3"
