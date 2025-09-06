@@ -1,0 +1,1 @@
+E:\Learning\rust-learning\target\debug\trait_2.exe: E:\Learning\rust-learning\The\ rust\ programming\ language\generic\ types\ traits\ and\ lifetimes\trait_2\src\lib.rs E:\Learning\rust-learning\The\ rust\ programming\ language\generic\ types\ traits\ and\ lifetimes\trait_2\src\main.rs
