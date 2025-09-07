@@ -72,6 +72,10 @@ name = "if_let"
 version = "0.1.0"
 
 [[package]]
+name = "iterator"
+version = "0.1.0"
+
+[[package]]
 name = "libc"
 version = "0.2.175"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -94,11 +98,19 @@ name = "mod_demo"
 version = "0.1.0"
 
 [[package]]
+name = "move_closure"
+version = "0.1.0"
+
+[[package]]
 name = "multiple_loop"
 version = "0.1.0"
 
 [[package]]
 name = "mutable_references"
+version = "0.1.0"
+
+[[package]]
+name = "my_iter"
 version = "0.1.0"
 
 [[package]]
