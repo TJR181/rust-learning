@@ -1,0 +1,16 @@
+[package]
+name = "river_hello"
+authors = ["r1ver"]
+version = "0.1.0"
+edition = "2024"
+description = "river's hello world"
+license = "MIT"
+
+[dependencies]
+
+
+[profile.dev]
+opt-level = 1
+
+[profile.release]
+opt-level = 3

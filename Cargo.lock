@@ -196,6 +196,10 @@ name = "result_enum_revert"
 version = "0.1.0"
 
 [[package]]
+name = "river_hello"
+version = "0.1.0"
+
+[[package]]
 name = "rust_loop"
 version = "0.1.0"
 
