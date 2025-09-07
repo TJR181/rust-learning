@@ -7,6 +7,10 @@ name = "add_sub_mul_div"
 version = "0.1.0"
 
 [[package]]
+name = "adder"
+version = "0.1.0"
+
+[[package]]
 name = "array"
 version = "0.1.0"
 
@@ -72,6 +76,10 @@ name = "libc"
 version = "0.2.175"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6a82ae493e598baaea5209805c49bbf2ea7de956d50d7da0da1164f9c6d28543"
+
+[[package]]
+name = "lifetime"
+version = "0.1.0"
 
 [[package]]
 name = "match_test"
@@ -173,6 +181,10 @@ version = "0.1.0"
 
 [[package]]
 name = "rust_loop"
+version = "0.1.0"
+
+[[package]]
+name = "should_panic"
 version = "0.1.0"
 
 [[package]]
